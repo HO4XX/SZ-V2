@@ -95,7 +95,7 @@ async def check_and_send(message: Message, *args, **kwargs):
 @userge.on_cmd("victim$", about={"header": "Facepalm :P"})
 async def facepalm_(message: Message):
     """facepalm_"""
-    await check_and_send(message, "https://t.me/ezyexposure")
+    await check_and_send(message, "https://t.me/xlalo_channel")
 
 
 @userge.on_cmd("cry$", about={"header": "y u du dis, i cri"})
