@@ -179,16 +179,15 @@ if userge.has_bot:
         if from_user.id in Config.OWNER_ID:
             start_msg, btns = default_owner_start(from_user)
         else:
-            start_msg = f"""
-Hello 👋 {from_user.fname},
-Nice To Meet You !, I'm <b>{bot_.fname}</b> A Bot.
+            start_msg = f""" {from_user.fname},
+<b>{bot_.fname}</b>
 
-        <b><i>Powered by</i> [USERGE-X](https://t.me/x_xtests)
+        <b><i>SCUMZ♦️SCUMZ♦️SCUMZ</i> ⚠️(https://t.me/xlalo)
 
 My Master is : {owner_.flname}</b>
 """
             if Config.BOT_FORWARDS:
-                start_msg += "<b>\n📌 NOTE:</b>\nYou can 📨 <b>Send Message</b> here to contact my <b>Master.</b>"
+                start_msg += "<b>\n ♦️ </b>\n ♦️ <b> ♦️ </b> ♦️ <b> ♦️</b>"
             contact_url = (
                 f"https://t.me/{owner_.uname}"
                 if owner_.uname
@@ -196,8 +195,8 @@ My Master is : {owner_.flname}</b>
             )
             btns = [
                 [
-                    InlineKeyboardButton("👤  CONTACT", url=contact_url),
-                    InlineKeyboardButton("⭐️  REPO", url=Config.UPSTREAM_REPO),
+                    InlineKeyboardButton("OWNER", url=contact_url),
+                    InlineKeyboardButton("REPO", url=Config.UPSTREAM_REPO),
                 ]
             ]
         try:
