@@ -746,19 +746,19 @@ async def sun_(message: Message):
 async def brain_func(message):
     animation_chars = [
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/Zn3-opF0DuY1OGRh",
+        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/Zn3-opF0DuY1OGRh",
+        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/Zn3-opF0DuY1OGRh",
+        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/Zn3-opF0DuY1OGRh",
+        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/Zn3-opF0DuY1OGRh",
+        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/Zn3-opF0DuY1OGRh",
+        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/Zn3-opF0DuY1OGRh",
+        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
     ]
     for i in range(14):
         await asyncio.sleep(0.3)
