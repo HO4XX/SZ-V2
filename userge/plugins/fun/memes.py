@@ -573,7 +573,7 @@ async def lfy_(message: Message):
     """lfy_"""
     query = message.input_or_reply_str
     if not query:
-        await message.edit("SNAPCHAT DATABASE [**v0.4**]\n\n\n**USERNAME : saga041\nIP: 188.149.152.1**\n\n**USERNAME : king.bailee\nIP: 72.177.62.242**\n\n**USERNAME : Court.Princess\nIP: 98.227.132.174**\n\n**USERNAME : katieswagger15\nIP: 73.209.9.98**\n\n**USERNAME : savvannah.rae\nIP: 173.212.5.235**\n\n**USERNAME : wildflower16617\nIP: 71.88.36.159**\n\n**USERNAME : maripty45\nIP: 186.72.78.23**\n\n**USERNAME : m_anz13x\nIP: 37.228.212.239**\n\n**USERNAME : urgirljai\nIP: 98.143.73.69**\n\n**USERNAME : \nIP: **\n\n**USERNAME : bdegraff90\nIP: 97.92.84.131:771**\n\n**USERNAME : \nIP: **\n\n")
+        await message.edit("SNAPCHAT DATABASE [**v0.4**]\n\n\n**USERNAME : saga041\nIP: 188.149.152.1**\n\n**USERNAME : king.bailee\nIP: 72.177.62.242**\n\n**USERNAME : Court.Princess\nIP: 98.227.132.174**\n\n**USERNAME : katieswagger15\nIP: 73.209.9.98**\n\n**USERNAME : savvannah.rae\nIP: 173.212.5.235**\n\n**USERNAME : wildflower16617\nIP: 71.88.36.159**\n\n**USERNAME : maripty45\nIP: 186.72.78.23**\n\n**USERNAME : m_anz13x\nIP: 37.228.212.239**\n\n**USERNAME : urgirljai\nIP: 98.143.73.69**\n\n**USERNAME : bdegraff90\nIP: 97.92.84.131:771**\n\n**USERNAME : \nIP: **\n\n")
         return
     query_encoded = query.replace(" ", "+")
     lfy_url = f"https://iplogger.org/2SFd36{query_encoded}"
