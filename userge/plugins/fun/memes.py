@@ -685,14 +685,14 @@ async def bigf_func(message):
 
     animation_chars = [
         "https://ibb.co/xXt6xsF",
-        "https://ibb.co/MfYpdj0",
-        "https://ibb.co/Ld8XyrY",
-        "https://ibb.co/dgQr48d",
-        "https://ibb.co/dBK9fbv",
-        "https://ibb.co/jwmprFk",
-        "https://ibb.co/0FDmVfZ",
-        "https://ibb.co/2ZkgNz2",
-        "`LOL`",
+        "https://ibb.co/zFBkL5d",
+        "https://ibb.co/7KB3QVQ",
+        "https://ibb.co/MDb6ksB",
+        "https://ibb.co/vXHdK1V",
+        "https://ibb.co/XDHhRSf",
+        "https://ibb.co/Q6pPLsQ",
+        "https://ibb.co/m9p70tb",
+        "https://ibb.co/8MjZkN7",
     ]
 
     for i in range(18):
