@@ -92,10 +92,10 @@ async def check_and_send(message: Message, *args, **kwargs):
         await message.edit(*args, **kwargs)
 
 
-@userge.on_cmd("victim$", about={"header": "Facepalm :P"})
+@userge.on_cmd("help$", about={"header": "Facepalm :P"})
 async def facepalm_(message: Message):
     """facepalm_"""
-    await check_and_send(message, "https://t.me/xlalo_channel")
+    await check_and_send(message, "**COMMANDS FOR BOT, MAKE SURE TO USE ! IN EVERY COMMAND**\n\n————————————————————\n!hack = sends fake hack message\n————————————————————\n!ping = current bot status\n————————————————————\n!clone = bot clones anyone u target\n————————————————————\n!spoof = converts gifs/vids to live vids\n————————————————————\n!ids = shows chat & user ids\n————————————————————\n!settings = shows current bot settings\n————————————————————\n!ban = bans user you reply to\n————————————————————\n!mute = mutes user\n————————————————————\n!unmute = unmutes user\n————————————————————\n!json = displays json\n————————————————————\n!report = sends false report\n————————————————————\n!maddi = displays maddi bark message\n————————————————————\n!scumz = displays scumz gc\n————————————————————\n!spam 1 | text = spams text once\n————————————————————\n!help = displays commands and tips\n————————————————————\n!setflood 10 = sets message limit to 10\n————————————————————\n!setmode ban = sets ban if flooded\n————————————————————\n!vflood = displays current flood settings\n————————————————————\n!delete 5 = deletes 5 messages from user\n————————————————————\n!deleteme 1 = deletes one message of bot\n————————————————————\n!urban word = finds urban meaning of word\n————————————————————\n!translate = translates people’s messages\n————————————————————\n!revert = revert bot to original if cloned\n————————————————————\n!leave = bot leaves on command\n————————————————————\n!shitpost = sends random gore\n————————————————————\n!unban = unbans user\n————————————————————\n!brick = displays brick message\n————————————————————\n!pin = pins message\n————————————————————\n!unban =unbans user\n————————————————————\n!tts text =text to speech vn\n————————————————————\n!snapdatabase =snap database\n————————————————————\n!ip =shows ips\n————————————————————\n\n TO SET UP GROUP USE:\n\n!setwelcome WELCOME TO {chat}\n♦️{flname}\n♦️{uname}\n♦️{chat}\n♦️{mention}\n\n[ Current users in chat : {count} ]")
 
 
 @userge.on_cmd("cry$", about={"header": "y u du dis, i cri"})
