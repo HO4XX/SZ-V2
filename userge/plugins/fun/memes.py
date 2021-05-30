@@ -732,7 +732,7 @@ async def luv_story(message):
 @userge.on_cmd("earth$", about={"header": "Beautiful Earth Animation"})
 async def sun_(message: Message):
     """earth"""
-    deq = deque(list("🌏🌍🌎🌎🌍🌏🌍🌎"))
+    deq = deque(list("fuck test test test test test test test test"))
     try:
         for _ in range(32):
             await sleep(0.3)
