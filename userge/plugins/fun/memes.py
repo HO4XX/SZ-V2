@@ -431,7 +431,7 @@ async def copypasta(message: Message):
     """copypasta"""
     input_str = message.input_or_reply_str
     if not input_str:
-        await message.edit("==================\n[**$7 DDOS BUNDLE**]\n-5Gbit power\n-1 attack\n-15min boot time\n\n^^ONE TIME ACCESS ONLY^^\n------------------\n\n[**$10 DDOS BUNDLE**]\n-15Gbit power\n-1 attack\n-35min boot time\n\n^^ONE TIME ACCESS ONLY^^\n-----------------\n\n[**$20 DDOS BUNDLE**]\n-15Gbit\n-2 Attack's\n-1hour boot time\n\n^^ONE TIME ACCESS ONLY^^\n----------------\n\n[**$27 DDOS BUNDLE**]\n-15Gbit\n-2 Attack's\n-2hour boot time\n\n^^ONE TIME ACCESS ONLY^^\n----------------\n\n[**$45 DDOS BUNDLE**]\n-15Gbit\n-4 Attack's\n-3hour30min boot time\n\n^^ONE TIME ACCESS ONLY^^----------------\n\n[**$150 DDOS BUNDLE**]\n-15Gbit\n-unlimited Attacks\n-5hours boot time\n\n^^30DAY ACCESS ONLY^^\n===================")
+        await message.edit("------------------\n[**$7 DDOS BUNDLE**]\n-5Gbit power\n-1 attack\n-15min boot time\n\n^^ONE TIME ACCESS ONLY^^\n------------------\n\n\n\[**$10 DDOS BUNDLE**]\n-15Gbit power\n-1 attack\n-35min boot time\n\n^^ONE TIME ACCESS ONLY^^\n------------------\n\n\n\[**$20 DDOS BUNDLE**]\n-15Gbit\n-2 Attack's\n-1hour boot time\n\n^^ONE TIME ACCESS ONLY^^\n------------------\n\n\n\[**$27 DDOS BUNDLE**]\n-15Gbit\n-2 Attack's\n-2hour boot time\n\n^^ONE TIME ACCESS ONLY^^\n------------------\n\n\n\[**$45 DDOS BUNDLE**]\n-15Gbit\n-4 Attack's\n-3hour30min boot time\n\n^^ONE TIME ACCESS ONLY^^------------------\n\n\n\[**$150 DDOS BUNDLE**]\n-15Gbit\n-unlimited Attacks\n-5hours boot time\n\n^^30DAY ACCESS ONLY^^\n------------------")
         return
     reply_text = choice(EMOJIS)
     # choose a random character in the message to be substituted with 🅱️
