@@ -36,4 +36,4 @@ async def pingme(message: Message):
         await message.edit("`STATUS:`")
         end = datetime.now()
         m_s = (end - start).microseconds / 1000
-        await message.edit(f"**SCUMZ♦️[𝙊𝙉𝙇𝙄𝙉𝙀]♦️SCUMZ**\n\n_________\nSay **!commands**\n_________\nSay **!pricing**\n_________Say **!groups**\n_________")
+        await message.edit(f"**SCUMZ♦️[𝙊𝙉𝙇𝙄𝙉𝙀]♦️SCUMZ**\n\n_________\nSay **!commands**\n_________\nSay **!pricing**\n_________\nSay **!groups**\n_________\n")
