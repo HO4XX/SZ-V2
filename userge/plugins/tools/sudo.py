@@ -46,7 +46,7 @@ async def sudo_(message: Message):
 
 
 @userge.on_cmd(
-    "enable",
+    "addsudo",
     about={"header": "add sudo user", "usage": "{tr}addsudo [username | reply to msg]"},
     allow_channels=False,
 )
@@ -89,7 +89,7 @@ async def add_sudo(message: Message):
 
 
 @userge.on_cmd(
-    "disable",
+    "delsudo",
     about={
         "header": "delete sudo user",
         "flags": {"-all": "remove all sudo users"},
