@@ -218,7 +218,7 @@ async def metoo_(message: Message):
 @userge.on_cmd("groups$", about={"header": "You retard !!"}, name="10iq")
 async def iqless(message: Message):
     """iqless"""
-    await check_and_send(message, "**♦️SCUMZ♦️SZ♦️SCUMZ♦️**: https://t.me/joinchat/I6weQKxfB8UyZTAx\n\n**HOMIEZ**: https://t.me/joinchat/CBh2Hx-pexFhMjkx\n\n**𝚇𝟹𝙽𝙳𝙸𝙲𝙰𝚃𝙴**: https://t.me/joinchat/4E2muYZrZ0FiZjI5\n\n**♕𝒟𝓊𝓂𝒷 ♔ℬ𝒾𝓉𝒸𝒽ℯ𝓏♕**: https://t.me/joinchat/fAUYv2mrtl9jOTNh\n\n**BASEMENT**: https://t.me/bs_mnt\n\n**nᴀᴜᴛɪꜱᴍ**: https://t.me/joinchat/XJdFtLc53_M3MGEx")
+    await check_and_send(message, "**♦️SCUMZ♦️SZ♦️SCUMZ♦️**: https://t.me/joinchat/I6weQKxfB8UyZTAx\n\n**HOMIEZ**: https://t.me/joinchat/CBh2Hx-pexFhMjkx\n\n**𝚇𝟹𝙽𝙳𝙸𝙲𝙰𝚃𝙴**: https://t.me/joinchat/4E2muYZrZ0FiZjI5\n\n**♕𝒟𝓊𝓂𝒷 ♔ℬ𝒾𝓉𝒸𝒽ℯ𝓏♕**: https://t.me/joinchat/fAUYv2mrtl9jOTNh\n\n**BASEMENT**: https://t.me/bs_mnt\n\n**ᴀᴜᴛɪꜱᴍ**: https://t.me/joinchat/XJdFtLc53_M3MGEx")
 
 
 @userge.on_cmd("moon$", about={"header": "kensar moon animation"})
