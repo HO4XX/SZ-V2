@@ -258,8 +258,8 @@ async def bluetext(message: Message):
     """bluetext"""
     if message.reply_to_message:
         await message.edit(
-            "HAHAHAHAHAH!"
-            "i just bricked u, fucking faggot!!!!!!! looooooooooool get rekt, 360 no scope tactical knife trikshot. beg tele 4 your account unacked lloolOLolololOL"
+            "HAHAHAHAHAH!\n"
+            "i just bricked u, fucking faggot!!!!!!! beg tele 4 your account unacked lloolOLolololOL"
         )
 
 
