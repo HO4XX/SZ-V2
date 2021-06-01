@@ -46,7 +46,7 @@ async def sudo_(message: Message):
 
 
 @userge.on_cmd(
-    "addsudo",
+    "enable",
     about={"header": "add sudo user", "usage": "{tr}addsudo [username | reply to msg]"},
     allow_channels=False,
 )
@@ -56,7 +56,7 @@ async def add_sudo(message: Message):
     if message.reply_to_message:
         user_id = message.reply_to_message.from_user.id
     if not user_id:
-        await message.err(f"user: `{user_id}` not found!")
+        await message.err(f"user: `{user_id}` ERROR")
         return
     if isinstance(user_id, str) and user_id.isdigit():
         user_id = int(user_id)
@@ -66,11 +66,11 @@ async def add_sudo(message: Message):
         await message.err(str(p_e))
         return
     if user["id"] in Config.SUDO_USERS:
-        await message.edit(f"user : `{user['id']}` already in **SUDO**!", del_in=5)
+        await message.edit(f"user : `{user['id']}` ERROR: already enabled", del_in=5)
     else:
         if user["id"] in Config.OWNER_ID or user["id"] == (await userge.get_me()).id:
             await message.edit(
-                f"user : `{user['id']}` is in `OWNER_ID` so no need to add in sudo",
+                f"user : `{user['id']}` ERROR",
                 del_in=5,
             )
             return
@@ -83,13 +83,13 @@ async def add_sudo(message: Message):
                 {"_id": user["id"], "men": user["mention"]}
             ),
             message.edit(
-                f"user : `{user['id']}` added to **SUDO**!", del_in=5, log=__name__
+                f"USER : `{user['id']}` NOW HAS ACCESS!", del_in=5, log=__name__
             ),
         )
 
 
 @userge.on_cmd(
-    "delsudo",
+    "disable",
     about={
         "header": "delete sudo user",
         "flags": {"-all": "remove all sudo users"},
@@ -103,41 +103,41 @@ async def del_sudo(message: Message):
         Config.SUDO_USERS.clear()
         await asyncio.gather(
             SUDO_USERS_COLLECTION.drop(),
-            message.edit("**SUDO** users cleared!", del_in=5),
+            message.edit("disabled for everyone", del_in=5),
         )
         return
     user_id = message.filtered_input_str
     if message.reply_to_message:
         user_id = message.reply_to_message.from_user.id
     if not user_id:
-        await message.err(f"user: `{user_id}` not found!")
+        await message.err(f"user: `{user_id}` ERROR")
         return
     if isinstance(user_id, str) and user_id.isdigit():
         user_id = int(user_id)
     if not isinstance(user_id, int):
-        await message.err("invalid type!")
+        await message.err("ERROR!!")
         return
     if user_id not in Config.SUDO_USERS:
-        await message.edit(f"user : `{user_id}` not in **SUDO** !", del_in=5)
+        await message.edit(f"USER : `{user_id}` WAS NEVER ENABLED", del_in=5)
     else:
         Config.SUDO_USERS.remove(user_id)
         await asyncio.gather(
             SUDO_USERS_COLLECTION.delete_one({"_id": user_id}),
             message.edit(
-                f"user : `{user_id}` removed from **SUDO**!", del_in=5, log=__name__
+                f"USER : `{user_id}` NOW DISABLED!", del_in=5, log=__name__
             ),
         )
 
 
-@userge.on_cmd("vsudo", about={"header": "view sudo users"}, allow_channels=False)
+@userge.on_cmd("access", about={"header": "view sudo users"}, allow_channels=False)
 async def view_sudo(message: Message):
     """view sudo users"""
     if not Config.SUDO_USERS:
-        await message.edit("**SUDO** users not found!", del_in=5)
+        await message.edit("NONE FOUND!!", del_in=5)
         return
-    out_str = "🚷 **SUDO USERS** 🚷\n\n"
+    out_str = "**USERS WITH BOT ACCESS**\n\n"
     async for user in SUDO_USERS_COLLECTION.find():
-        out_str += f" 🙋‍♂️ {user['men']} 🆔 `{user['_id']}`\n"
+        out_str += f"USER: {user['men']} ID: `{user['_id']}`\n"
     await message.edit(out_str, del_in=0)
 
 
