@@ -178,7 +178,7 @@ async def kang_(message: Message):
                 await conv.send_message("/done")
                 await conv.get_response(mark_read=True)
         else:
-            await message.edit("`Brewing a new Pack...`")
+            await message.edit("`Now Adding Sticker...`")
             async with userge.conversation("Stickers") as conv:
                 try:
                     await conv.send_message(cmd)
