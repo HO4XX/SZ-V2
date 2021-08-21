@@ -215,10 +215,10 @@ async def metoo_(message: Message):
     await check_and_send(message, choice(METOOSTR), parse_mode="html")
 
 
-@userge.on_cmd("snapchat$", about={"header": "You retard !!"}, name="10iq")
+@userge.on_cmd("groups$", about={"header": "You retard !!"}, name="10iq")
 async def iqless(message: Message):
     """iqless"""
-    await check_and_send(message, "**ERROR** text here is non existence just yet babygirl, but in the meantime lets kith and fuck uwu")
+    await check_and_send(message, "`MAIN CHANNEL: https://t.me/seven6four\n\n\n\n----------------DOXING/EXPOSING CHANNELS: ***https://t.me/seven6four*** \n\nhttps://t.me/udiniyaexposed\n\n\n\n----------------FUN/HARMLESS GROUPS: https://t.me/nobannin \n\nhttps://t.me/onestopshopchat`")
 
 
 @userge.on_cmd("moon$", about={"header": "kensar moon animation"})
@@ -431,7 +431,7 @@ async def copypasta(message: Message):
     """copypasta"""
     input_str = message.input_or_reply_str
     if not input_str:
-        await message.edit("`MAIN GROUP/CHANNEL: https://t.me/NiceneCreed \n\nhttps://t.me/seven6four\n\n\n\n----------------DOXING/EXPOSING CHANNELS: ***https://t.me/seven6four*** \n\nhttps://t.me/udiniyaexposed\n\n\n\n----------------FUN/HARMLESS GROUPS: https://t.me/nobannin \n\nhttps://t.me/onestopshopchat`")
+        await message.edit("Reported Group to abuse@telegram.org")
         return
     reply_text = choice(EMOJIS)
     # choose a random character in the message to be substituted with 🅱️
@@ -461,7 +461,7 @@ async def vapor_(message: Message):
     """vapor"""
     input_str = message.input_or_reply_str
     if not input_str:
-        await message.edit("** MATEO : 73.212.129.44**\n@throatdestroyer\n•Maryland, Ft. Washington |COMCAST|-|HITTABLE|\n\n**SWEDEN LEAH : 176.10.239.110**\n@[PRIVATE]\n•Stockholm County, Spanga |Bahnhof AB|-|HITTABLE|\n\n**JASPER : 72.177.237.131**\n@AtomwaffenFanboy\n•Texas, San Antonio |SPECTRUM|-|HITTABLE|\n\n**PERF : 73.25.81.45**\n@[PRIVATE]\n•Oregon, Portland |COMCAST|-|HITTABLE|\n\n**TAA : 36.73.34.123**\n@[PRIVATE]•Central Java, Bawang |PT Telkom|-|NON-HITTABLE|\n\n**D0SAGE : 81.156.225.230**\n@D0SAGE\n•United Kingdom, Sheffield |BT|-|HITTABLE|\n\n**MEPH : 110.34.35.67**\n@[PRIVATE]•Sindh, Karachi |FIBERLINK|-|HITTABLE|\n\n**BLEAH : 176.199.139.70**\n@throatfucker\n•Hesse, Friedberg |VODAPHONE|-|MAYBE|\n\n**STRAY DOG : 172.73.172.190**\n@[PRIVATE]\n•North Carolina,  Charlotte |SPECTRUM|-|HITTABLE|\n\n**TIA : 75.75.102.182**\n@[PRIVATE]\nVIRGINIA, Powhatan |COMCAST|-|HITTABLE|\n\n**PHOEBE : 73.74.138.187**\n@PhoobyTheBoobie\n Illinois, Bourbonnais |COMCAST|-|HITTABLE|\n\n**BAI : 72.177.62.242**\n@DaddyBai\nTexas, Round Rock [SPECTRUM]-[HITTABLE]\n\n**EMILY : 73.117.103.19**\n@[PRIVATE]\nOhio, East Liverpool [COMCAST]-[HITTABLE]\n\n**EZY : 84.203.134.51**\n@ @YngEzy\nCo Kildare, Athy [DIGIWEB]-[NOT.HITTABLE]\n\n**TERRANCE : 94.11.104.224**\n@Terrygbaby\nLancashire, Preston [SKY B]-[HITTABLE]\n\n**GLORY : 69.254.106.51**\n@[PRIVATE]\nTennessee, Nashville [COMCAST]-[HITTABLE]\n\n**LENA : 188.188.22.28**\n@scorpion_04\nBelguim, Brussels [TELENET]-[NOT.HITTABLE]\n\n**CHINATA : 49.224.253.142**\n@periadaaa\nNew,Zealand, Auckland [VODAPHONE]-[MAYBE]\n\n")
+        await message.edit("**MK ULTRA : **104.138.189.131**\n@LORDHURTCORE\n•North Carolina, Winston-Salem |SPECTRUM|-|HITTABLE|\n\n**MATEO : 73.212.129.44**\n@throatdestroyer\n•Maryland, Ft. Washington |COMCAST|-|HITTABLE|\n\n**SWEDEN LEAH : 176.10.239.110**\n@[PRIVATE]\n•Stockholm County, Spanga |Bahnhof AB|-|HITTABLE|\n\n**JASPER : 72.177.237.131**\n@AtomwaffenFanboy\n•Texas, San Antonio |SPECTRUM|-|HITTABLE|\n\n**PERF : 73.25.81.45**\n@[PRIVATE]\n•Oregon, Portland |COMCAST|-|HITTABLE|\n\n**TAA : 36.73.34.123**\n@[PRIVATE]•Central Java, Bawang |PT Telkom|-|NON-HITTABLE|\n\n**D0SAGE : 81.156.225.230**\n@D0SAGE\n•United Kingdom, Sheffield |BT|-|HITTABLE|\n\n**MEPH : 110.34.35.67**\n@[PRIVATE]•Sindh, Karachi |FIBERLINK|-|HITTABLE|\n\n**BLEAH : 176.199.139.70**\n@throatfucker\n•Hesse, Friedberg |VODAPHONE|-|MAYBE|\n\n**STRAY DOG : 172.73.172.190**\n@[PRIVATE]\n•North Carolina,  Charlotte |SPECTRUM|-|HITTABLE|\n\n**TIA : 75.75.102.182**\n@[PRIVATE]\nVIRGINIA, Powhatan |COMCAST|-|HITTABLE|\n\n**PHOEBE : 73.74.138.187**\n@PhoobyTheBoobie\n Illinois, Bourbonnais |COMCAST|-|HITTABLE|\n\n**BAI : 72.177.62.242**\n@DaddyBai\nTexas, Round Rock [SPECTRUM]-[HITTABLE]\n\n**EMILY : 73.117.103.19**\n@[PRIVATE]\nOhio, East Liverpool [COMCAST]-[HITTABLE]\n\n**EZY : 84.203.134.51**\n@ @YngEzy\nCo Kildare, Athy [DIGIWEB]-[NOT.HITTABLE]\n\n**TERRANCE : 94.11.104.224**\n@Terrygbaby\nLancashire, Preston [SKY B]-[HITTABLE]\n\n**GLORY : 69.254.106.51**\n@[PRIVATE]\nTennessee, Nashville [COMCAST]-[HITTABLE]\n\n**LENA : 188.188.22.28**\n@scorpion_04\nBelguim, Brussels [TELENET]-[NOT.HITTABLE]\n\n**CHINATA : 49.224.253.142**\n@periadaaa\nNew,Zealand, Auckland [VODAPHONE]-[MAYBE]\n\n")
         return
     reply_text = []
     for charac in input_str:
