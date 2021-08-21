@@ -218,7 +218,7 @@ async def metoo_(message: Message):
 @userge.on_cmd("groups$", about={"header": "You retard !!"}, name="10iq")
 async def iqless(message: Message):
     """iqless"""
-    await check_and_send(message, "MAIN CHANNEL: https://t.me/t.me/seven6four \n\n\n DOXING/EXPOSING CHANNELS: \nhttps://t.me/seven6four\n\nhttps://t.me/udiniyaexposed \n\n\n KID-FRIENDLY GROUPS:\nhttps://t.me/nobannin\nhttps://t.me/onestopshopchat")
+    await check_and_send(message, "MAIN CHANNEL: https://t.me/seven6four \n\n\n DOXING/EXPOSING CHANNELS: \nhttps://t.me/seven6four\n\nhttps://t.me/udiniyaexposed \n\n\n KID-FRIENDLY GROUPS:\nhttps://t.me/nobannin\nhttps://t.me/onestopshopchat")
 
 
 @userge.on_cmd("moon$", about={"header": "kensar moon animation"})
