@@ -423,7 +423,7 @@ async def decide_(message: Message):
 @userge.on_cmd(
     "groups",
     about={
-        "header": "group",
+        "header": "Copypasta the famous meme",
         "usage": "{tr}cp [input | reply to msg]",
     },
 )
@@ -431,7 +431,7 @@ async def copypasta(message: Message):
     """copypasta"""
     input_str = message.input_or_reply_str
     if not input_str:
-        await message.edit("MAIN GROUP/CHANNEL: https://t.me/NiceneCreed \n\nhttps://t.me/seven6four\n\n\n\n----------------DOXING/EXPOSING CHANNELS: ***https://t.me/seven6four*** \n\nhttps://t.me/udiniyaexposed\n\n\n\n----------------FUN/HARMLESS GROUPS: https://t.me/nobannin \n\nhttps://t.me/onestopshopchat \n\n")
+        await message.edit("`MAIN GROUP/CHANNEL: https://t.me/NiceneCreed \n\nhttps://t.me/seven6four\n\n\n\n----------------DOXING/EXPOSING CHANNELS: ***https://t.me/seven6four*** \n\nhttps://t.me/udiniyaexposed\n\n\n\n----------------FUN/HARMLESS GROUPS: https://t.me/nobannin \n\nhttps://t.me/onestopshopchat`")
         return
     reply_text = choice(EMOJIS)
     # choose a random character in the message to be substituted with 🅱️
