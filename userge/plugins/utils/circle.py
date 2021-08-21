@@ -27,7 +27,7 @@ async def video_note(message: Message):
     _vid_path = _cache_path + "/temp_vid.mp4"
     reply = message.reply_to_message
     if not reply:
-        await message.err("Reply to supported media", del_in=10)
+        await message.err("Real Live Video /or/ ⚠️invalid file type⚠️", del_in=10)
         return
     if not (reply.video or reply.animation or reply.audio):
         await message.err("Real Live Video /or/ ⚠️invalid file type⚠️", del_in=10)
@@ -35,7 +35,7 @@ async def video_note(message: Message):
     if os.path.exists(_cache_path):
         rmtree(_cache_path, ignore_errors=True)
     os.mkdir(_cache_path)
-    await message.edit("`Spoofing As Live! Please wait.`")
+    await message.edit("`Currently Spoofing As Live! Please wait...`")
     if reply.video or reply.animation:
         note = safe_filename(await reply.download())
         await crop_vid(note, _vid_path)
