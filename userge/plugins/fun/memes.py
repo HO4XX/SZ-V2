@@ -95,7 +95,7 @@ async def check_and_send(message: Message, *args, **kwargs):
 @userge.on_cmd("commands$", about={"header": "Facepalm :P"})
 async def facepalm_(message: Message):
     """facepalm_"""
-    await check_and_send(message, "**COMMANDS FOR BOT, MAKE SURE TO USE ! IN EVERY COMMAND**\n\n————————————————————\n!groups = shows current active chats\n————————————————————\n!hack = sends fake hack message\n————————————————————\n!ping = current bot status\n————————————————————\n!clone = bot clones anyone u target\n————————————————————\n!spoof = converts gifs/vids to live vids\n————————————————————\n!ids = shows chat & user ids\n————————————————————\n!settings = shows current bot settings\n————————————————————\n!ban = bans user you reply to\n————————————————————\n!mute = mutes user\n————————————————————\n!unmute = unmutes user\n————————————————————\n!json = displays json\n————————————————————\n!maddi = displays maddi bark message\n————————————————————\n!scumz = displays scumz gc\n————————————————————\n!spam 1 | text = spams text once\n————————————————————\n!commands = displays commands and tips\n————————————————————\n!setflood 10 = sets message limit to 10\n————————————————————\n!setmode ban = sets ban if flooded\n————————————————————\n!vflood = displays current flood settings\n————————————————————\n!delete 5 = deletes 5 messages from user\n————————————————————\n!deleteme 1 = deletes one message of bot\n————————————————————\n!urban word = finds urban meaning of word\n————————————————————\n!translate = translates people’s messages\n————————————————————\n!revert = revert bot to original if cloned\n————————————————————\n!leave = bot leaves on command\n————————————————————\n!shitpost = sends random gore\n————————————————————\n!unban = unbans user\n————————————————————\n!brick = displays brick message\n————————————————————\n!pin = pins message\n————————————————————\n!unban =unbans user\n————————————————————\n!tts text =text to speech vn\n————————————————————\n!snapdatabase =snap database\n————————————————————\n!ip =shows ips\n————————————————————\n!pricing =shows pricing\n————————————————————\n\nTO SET UP GROUP USE:\n\n!setwelcome WELCOME TO {chat}\n♦️{flname}\n♦️{uname}\n♦️{chat}\n♦️{mention}\n\n[ Current users in chat : {count} ]")
+    await check_and_send(message, "**COMMANDS FOR BOT, MAKE SURE TO USE ! IN EVERY COMMAND**\n\n————————————————————\n!groups = shows current active chats\n————————————————————\n!hack = sends fake hack message\n————————————————————\n!ping = current bot status\n————————————————————\n!clone = bot clones anyone u target\n————————————————————\n!spoof = converts gifs/vids to live vids\n————————————————————\n!ids = shows chat & user ids\n————————————————————\n!settings = shows current bot settings\n————————————————————\n!ban = bans user you reply to\n————————————————————\n!mute = mutes user\n————————————————————\n!unmute = unmutes user\n————————————————————\n!json = displays json\n————————————————————\n!maddi = displays maddi bark message\n————————————————————\n!scumz = displays scumz gc\n————————————————————\n!spam 1 | text = spams text once\n————————————————————\n!commands = displays commands and tips\n————————————————————\n!setflood 10 = sets message limit to 10\n————————————————————\n!setmode ban = sets ban if flooded\n————————————————————\n!vflood = displays current flood settings\n————————————————————\n!delete 5 = deletes 5 messages from user\n————————————————————\n!deleteme 1 = deletes one message of bot\n————————————————————\n!urban word = finds urban meaning of word\n————————————————————\n!translate = translates people’s messages\n————————————————————\n!revert = revert bot to original if cloned\n————————————————————\n!leave = bot leaves on command\n————————————————————\n!shitpost = sends random gore\n————————————————————\n!unban = unbans user\n————————————————————\n!brick = displays brick message\n————————————————————\n!pin = pins message\n————————————————————\n!unban =unbans user\n————————————————————\n!tts text =text to speech vn\n————————————————————\n!snapdatabase =snap database\n————————————————————\n!ip =shows ips\n————————————————————\n\nTO SET UP GROUP USE:\n\n!setwelcome WELCOME TO {chat}\n♦️{flname}\n♦️{uname}\n♦️{chat}\n♦️{mention}\n\n[ Current users in chat : {count} ]")
 
 
 @userge.on_cmd("cry$", about={"header": "y u du dis, i cri"})
@@ -421,9 +421,9 @@ async def decide_(message: Message):
 
 
 @userge.on_cmd(
-    "pricing",
+    "groups",
     about={
-        "header": "Copypasta the famous meme",
+        "header": "group",
         "usage": "{tr}cp [input | reply to msg]",
     },
 )
@@ -431,7 +431,7 @@ async def copypasta(message: Message):
     """copypasta"""
     input_str = message.input_or_reply_str
     if not input_str:
-        await message.edit("------------------\n[**$7 DDOS BUNDLE**]\n-5Gbit power\n-1 attack\n-15min boot time\n\n^^ONE TIME ACCESS ONLY^^\n------------------\n\n\n\n\n[**$10 DDOS BUNDLE**]\n-15Gbit power\n-1 attack\n-35min boot time\n\n^^ONE TIME ACCESS ONLY^^\n------------------\n\n\n\n\n[**$20 DDOS BUNDLE**]\n-15Gbit\n-2 Attack's\n-1hour boot time\n\n^^ONE TIME ACCESS ONLY^^\n------------------\n\n\n\n\n[**$27 DDOS BUNDLE**]\n-15Gbit\n-2 Attack's\n-2hour boot time\n\n^^ONE TIME ACCESS ONLY^^\n------------------\n\n\n\n\n[**$45 DDOS BUNDLE**]\n-15Gbit\n-4 Attack's\n-3hour30min boot time\n\n^^ONE TIME ACCESS ONLY^^------------------\n\n\n\n\n[**$150 DDOS BUNDLE**]\n-15Gbit\n-unlimited Attacks\n-5hours boot time\n\n^^30DAY ACCESS ONLY^^\n------------------\n\n\n\n\nTO PURCHASE ANY BUNDLE AND/OR IS INTERESTED. CONTACT **t.me/xLALO**")
+        await message.edit("MAIN GROUP/CHANNEL: https://t.me/NiceneCreed \n\nhttps://t.me/seven6four\n\n\n\n----------------DOXING/EXPOSING CHANNELS: ***https://t.me/seven6four*** \n\nhttps://t.me/udiniyaexposed\n\n\n\n----------------FUN/HARMLESS GROUPS: https://t.me/nobannin \n\nhttps://t.me/onestopshopchat \n\n")
         return
     reply_text = choice(EMOJIS)
     # choose a random character in the message to be substituted with 🅱️
@@ -746,19 +746,19 @@ async def sun_(message: Message):
 async def brain_func(message):
     animation_chars = [
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
+        "⛤ https://t.me/NiceneCreed ⛤",
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
+        "⸸ https://t.me/NiceneCreed ⸸",
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
+        "⛤ https://t.me/NiceneCreed ⛤",
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
+        "⸸ https://t.me/NiceneCreed ⸸",
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
+        "⛤ https://t.me/NiceneCreed ⛤",
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
+        "⸸ https://t.me/NiceneCreed ⸸",
         "♦️SCUMZ IS BASED ASF♦️",
-        "https://t.me/joinchat/4RjgKz2V1wAwZGNh",
+        "⛤♦️⸸ https://t.me/NiceneCreed ⸸♦️⛤",
     ]
     for i in range(14):
         await asyncio.sleep(0.3)
@@ -803,8 +803,8 @@ async def hack_func(message):
         "at `doxbin.org/victim/telegram-authuser.data.sql`",
     ]
     hecked = (
-        f"**Targeted Account Hacked saved to doxbin.org, IP & info saved in logger**\n\n```Pay 0.00102546 btc To``` BTC: 1BFuH3Kwa2kTwsg6jr2phGhZrWaggQTVTm``` "
-        "Or get ur shit rekt nd be extorted"
+        f"**ACCOUNT HAS BEEN REPORTED/SENT TO ANTIPEDO BOT FOR FALSE CP ACCUSATIONS/ AND WILL BE PM BOMBED WITH CP AT 9PM GMT, UNLESS USER SENDS $50 in btc to: ```bc1qqdhnu6gdx7eputjq3wyzqnmpmd2u28u0v577qr``` "
+        "⚠️-@SZ_V2 ***made with love in waterloo**"
     )
     max_ani = len(animation_chars)
     for i in range(max_ani):
