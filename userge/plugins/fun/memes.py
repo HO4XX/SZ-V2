@@ -224,7 +224,7 @@ async def iqless(message: Message):
 @userge.on_cmd("nigger$", about={"header": "kensar moon animation"})
 async def moon_(message: Message):
     """moon"""
-    deq = deque(list("https://t.me/joinchat/kdIGl4QJ0rE0MDVh"))
+    deq = deque(list("…..🏡…..🏃🏿..🏃🏿…🚓..🚓…🚓…"))
     try:
         for _ in range(32):
             await asyncio.sleep(0.1)
